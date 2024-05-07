@@ -3,7 +3,7 @@
 
   <groupId>com.cavetale.fastleafdecay</groupId>
   <artifactId>fastleafdecay</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1</version>
 
   <name>FastLeafDecay</name>
   <packaging>jar</packaging>
@@ -27,7 +27,7 @@
     <dependency>
       <groupId>org.spigotmc</groupId>
       <artifactId>spigot-api</artifactId>
-      <version>1.20.1-R0.1-SNAPSHOT</version>
+      <version>1.20.6-R0.1-SNAPSHOT</version>
     </dependency>
 
     <!-- Lombok -->
@@ -46,10 +46,10 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.2</version>
+        <version>3.13.0</version>
         <configuration>
-          <source>17</source>
-          <target>17</target>
+          <source>21</source>
+          <target>21</target>
           <showDeprecation>true</showDeprecation>
           <showWarnings>true</showWarnings>
           <compilerArgs>
